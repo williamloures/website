@@ -29,6 +29,10 @@ h1, p {
     color: aliceblue;
     margin: 20px;
 }
+.main-content {
+    margin-left: 10%;
+    margin-top: 50px;
+}
 p {
     width: 40%;
 }
@@ -38,12 +42,12 @@ footer {
     height: 150px;
     width: 100%;
 }
-footer div {
+.container-footer {
     display: flex;
     justify-content: center;
     height: 100%;
 }
-footer div p {
+.copyright {
     display: flex;
     width: 50%;
     height: 50%;
