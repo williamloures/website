@@ -1,7 +1,53 @@
-.conteiner {
-    text-align: center;
-    color: antiquewhite;
-}
+* {
+    /* border: white solid 1px; */
+    margin: 0px;
+    padding: 0px;
+} 
 body {
-    background-color: black;
+    background-color: rgb(29, 29, 29);
+}
+header {
+    background-color: rgb(53, 53, 53);
+    height: 100px;
+}
+header nav {
+    display: flex;
+    float: right;
+    height: 100%;
+    width: 30%;
+    align-content: center;
+}
+header nav a {
+    display: flex;
+    color: antiquewhite;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+}
+h1, p {
+    color: aliceblue;
+    margin: 20px;
+}
+p {
+    width: 40%;
+}
+footer {
+    bottom: 0px;
+    background-color: rgb(46, 9, 9);
+    height: 150px;
+    width: 100%;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+footer div p {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
