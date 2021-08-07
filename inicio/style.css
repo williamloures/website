@@ -1,0 +1,134 @@
+* {
+    /* border: white solid 1px; */
+    margin: 0px;
+    padding: 0px;
+} 
+body {
+    background-color: rgb(29, 29, 29);
+}
+header {
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    height: 100px;
+}
+header nav {
+    display: flex;
+    float: right;
+    height: 100%;
+    width: 60%;
+    align-content: center;
+    margin-right: 75px;
+}
+header h1 {
+    display: flex;
+    float: left;
+    width: 100%;
+    align-items: center;
+    margin-left: 10%;
+    color: antiquewhite;
+}
+header nav a {
+    display: flex;
+    color: antiquewhite;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+}
+.main-content {
+    margin-left: 10%;
+    margin-top: 50px;
+    color: antiquewhite;
+}
+.main-content p {
+    width: 40%;
+    margin: 50px 0px;
+}
+footer {
+    bottom: 0px;
+    background-color: rgb(46, 9, 9);
+    height: 150px;
+    width: 100%;
+}
+.container-footer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.container-footer .copyright {
+    display: flex;
+    width: 30%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: antiquewhite;
+}
+.social-container {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container-footer .github {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    height: 100%;
+    margin-right: 10px;
+}
+.container-footer .linkedin {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    height: 100%;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    header nav a {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    header h1 {
+        display: none;
+    }
+    header nav {
+        display: flex;
+        align-self: center;
+        margin: 0px;
+        justify-content: center;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .main-content p {
+        display: flex;
+        margin-bottom: 0px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .main-content h1 {
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 951px) {
+    .container-footer .copyright {
+        display: flex;
+        text-align: center;
+    }
+    footer {
+        margin-top: 50px;
+    }
+}
