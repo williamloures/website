@@ -74,7 +74,7 @@ footer {
 }
 .container-footer .github {
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(124, 124, 124);
     height: 100%;
 }
 
@@ -96,5 +96,32 @@ footer {
     header {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .main-content p {
+        display: flex;
+        margin-bottom: 0px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .main-content h1 {
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 951px) {
+    .container-footer .copyright {
+        display: flex;
+        text-align: center;
+    }
+    footer {
+        margin-top: 50px;
     }
 }
