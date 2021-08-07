@@ -76,6 +76,13 @@ footer {
     text-decoration: none;
     color: rgb(124, 124, 124);
     height: 100%;
+    margin-right: 10px;
+}
+.container-footer .linkedin {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    height: 100%;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 580px) {
