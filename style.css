@@ -44,17 +44,15 @@ header nav a {
     width: 40%;
     margin: 50px 0px;
 }
-footer {
-    bottom: 0px;
-    background-color: rgb(46, 9, 9);
-    height: 150px;
-    width: 100%;
-}
 .container-footer {
     display: flex;
     justify-content: center;
-    height: 100%;
     flex-direction: column;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(46, 9, 9);
+    position: absolute;
 }
 .container-footer .copyright {
     display: flex;
@@ -71,6 +69,8 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    width: 200px;
+    align-self: center;
 }
 .container-footer .github {
     text-decoration: none;
