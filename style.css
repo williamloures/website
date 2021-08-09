@@ -47,12 +47,12 @@ header nav a {
 .container-footer {
     display: flex;
     justify-content: center;
-    height: 100%;
     flex-direction: column;
-    bottom: 0;
-    background-color: rgb(46, 9, 9);
     height: 150px;
     width: 100%;
+    bottom: 0;
+    background-color: rgb(46, 9, 9);
+    position: absolute;
 }
 .container-footer .copyright {
     display: flex;
